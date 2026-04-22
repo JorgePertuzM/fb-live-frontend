@@ -1,0 +1,28 @@
+<!-- frontend/index.html-->
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Comments</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>💬 Comentarios en Vivo</h1>
+
+    <button onclick="login()">🔐 Conectar con Facebook</button>
+
+    <div id="comments"></div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+
+  <script>
+    function login() {
+      window.location.href = 'http://localhost:3000/auth/login';
+    }
+  </script>
+
+</body>
+</html>
