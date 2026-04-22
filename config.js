@@ -1,2 +1,2 @@
 // frontenfd/config.js
-export const API_URL = 'http://localhost:3000/api';
+export const API_URL = 'https://fb-live-backend.onrender.com/api';
